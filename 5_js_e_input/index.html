@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>5 - JS e input</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button id="hamburger-button">
+                <i class="fa-solid fa-hamburger fa-4x"></i>
+            </button>
+            <div id="menu">
+                <button id="close-hamburger-button">
+                    <i class="fa-solid fa-times fa-4x"></i>
+                </button>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Link 1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Link 2
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Link 3
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div>
+            <label for="name-input">
+                Nome completo
+            </label>
+            <div>
+                <input id="name-input" type="text" placeholder="Inserisci il tuo nome completo...">
+            </div>
+        </div>
+        <div>
+            <label for="gender-select">
+                Genere
+            </label>
+            <div>
+                <select id="gender-select">
+                    <option value="m">Uomo</option>
+                    <option value="f">Donna</option>
+                    <option value="o">Preferisco non specificare</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <button id="submit-button">
+                Invia dati
+            </button>
+        </div>
+
+        <div>
+            <p id="full-text-p"></p>
+        </div>
+
+        <!-- INIZIO importazione JS -->
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <!-- FINE importazione JS -->
+    </body>
+</html>
